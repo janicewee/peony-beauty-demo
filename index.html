@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PEONY BEAUTY HOUSE | Facial & Beauty Services</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #444; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        
+        header {
+            background: linear-gradient(135deg, #ff9eb5 0%, #ffc2d1 50%, #ffe4e1 100%);
+            padding: 60px 0;
+            text-align: center;
+            color: #8b4513;
+        }
+        .logo { font-size: 2.8em; font-weight: bold; margin-bottom: 10px; letter-spacing: 1px; }
+        .tagline { font-size: 1.3em; opacity: 0.9; margin-bottom: 15px; }
+        .rating { font-size: 1.1em; margin-top: 10px; color: #d2691e; }
+        
+        .cta-section {
+            background: #fff0f5;
+            padding: 40px 0;
+            text-align: center;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #ff6b8a;
+            color: white;
+            padding: 18px 50px;
+            font-size: 1.3em;
+            border-radius: 50px;
+            text-decoration: none;
+            margin: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .cta-button:hover { transform: translateY(-3px); box-shadow: 0 8px 20px rgba(255,107,138,0.4); }
+        
+        .services {
+            padding: 60px 0;
+            background: #fff;
+        }
+        .services h2 { text-align: center; font-size: 2.2em; margin-bottom: 40px; color: #8b4513; }
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+        .service-card {
+            background: #fff5f7;
+            padding: 35px;
+            border-radius: 15px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .service-card:hover { transform: translateY(-5px); }
+        .service-icon { font-size: 3em; margin-bottom: 15px; }
+        .service-card h3 { color: #8b4513; margin-bottom: 10px; font-size: 1.3em; }
+        
+        .about {
+            background: linear-gradient(135deg, #fff0f5 0%, #ffe4e1 100%);
+            padding: 60px 0;
+            text-align: center;
+        }
+        .about h2 { font-size: 2em; margin-bottom: 20px; color: #8b4513; }
+        .about p { max-width: 800px; margin: 0 auto; font-size: 1.1em; line-height: 1.8; }
+        
+        .testimonial {
+            background: #fff;
+            padding: 60px 0;
+            text-align: center;
+        }
+        .testimonial h2 { color: #8b4513; margin-bottom: 30px; }
+        .testimonial-card {
+            max-width: 700px;
+            margin: 0 auto;
+            background: #fff5f7;
+            padding: 40px;
+            border-radius: 15px;
+            font-style: italic;
+            font-size: 1.2em;
+        }
+        .testimonial-author { margin-top: 20px; font-weight: bold; color: #ff6b8a; font-style: normal; }
+        
+        .contact {
+            background: #8b4513;
+            color: white;
+            padding: 50px 0;
+            text-align: center;
+        }
+        .contact h2 { margin-bottom: 25px; }
+        .contact-info { font-size: 1.1em; line-height: 2; }
+        .contact-info a { color: #ffcccb; text-decoration: none; }
+        .contact-info a:hover { text-decoration: underline; }
+        
+        .highlight { color: #ff6b8a; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">PEONY BEAUTY HOUSE</div>
+            <div class="tagline">20+ Years Experience • No Hard Selling • Genuine Care</div>
+            <div class="rating">★★★★★ 4.9 (187 reviews)</div>
+        </div>
+    </header>
+
+    <section class="cta-section">
+        <div class="container">
+            <a href="tel:98504496" class="cta-button">📞 Call/WhatsApp: 9850 4496</a>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">✨</div>
+                    <h3>Facial Treatments</h3>
+                    <p>Oxygen facial, purifying facial, extraction. Painless & thorough!</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">👁️</div>
+                    <h3>Eyebrow Services</h3>
+                    <p>Threading, shaping & embroidery. Meticulous attention to detail</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🌸</div>
+                    <h3>Eyelash Perm</h3>
+                    <p>Natural lash enhancement with lasting results</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💆</div>
+                    <h3>Body Waxing</h3>
+                    <p>Gentle, professional hair removal services</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎯</div>
+                    <h3>Mole Removal</h3>
+                    <p>Safe removal with follow-up care</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💆‍♀️</div>
+                    <h3>Shoulder Massage</h3>
+                    <p>Relaxing massage included with facial treatments</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <h2>Meet May — Your Beauty Expert</h2>
+            <p>With <span class="highlight">over 20 years of experience</span>, May personally attends to every customer. No assistants, no rushed treatments — just genuine, professional care. Located conveniently at <strong>Keat Hong Shopping Centre</strong>, near MRT/LRT.</p>
+            <p style="margin-top: 25px;"><strong>Why customers keep coming back:</strong></p>
+            <p>✓ Zero hard selling ✓ Gentle, painless extraction ✓ Personal attention ✓ Affordable prices ✓ Clean, cozy environment</p>
+        </div>
+    </section>
+
+    <section class="testimonial">
+        <div class="container">
+            <h2>What Customers Say</h2>
+            <div class="testimonial-card">
+                "My first time here and I love it! No frills, no hardsell at all. Beautician has more than 20 years experience and you are in good hands. Very thorough cleaning and my face feels so clean and glowy after facial. Thank you so much!!"
+                <div class="testimonial-author">— Joycelyn Ong</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h2>Book Your Appointment</h2>
+            <div class="contact-info">
+                <p>📍 <strong>Address:</strong><br>
+                KEAT HONG SHOPPING CENTRE<br>
+                Choa Chu Kang Ave 1, #B1-12 BLOCK 253<br>
+                Singapore 680253</p>
+                <p style="margin-top: 20px;">📞 <a href="tel:98504496">9850 4496</a> (May)</p>
+                <p>⏰ Appointments Recommended</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
